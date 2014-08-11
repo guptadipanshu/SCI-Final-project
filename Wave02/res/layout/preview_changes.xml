@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/preview_changes_screen"
+     >
+
+    <TextView
+        android:id="@+id/tv_home"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:layout_marginBottom="194dp"
+        android:layout_marginLeft="20dp"
+        android:layout_x="23dp"
+        android:layout_y="232dp"
+        android:background="@android:color/background_light"
+        android:text="Large Text"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/tv_fav_song"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:layout_x="23dp"
+        android:layout_y="261dp"
+        android:background="@android:color/background_light"
+        android:text="Large Text"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/tv_dob"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:layout_x="23dp"
+        android:layout_y="292dp"
+        android:background="@android:color/background_light"
+        android:text="Large Text"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/btn_show_acc"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_x="138dp"
+        android:layout_y="184dp" 
+        android:background="@android:color/transparent"
+        
+        
+        />
+
+</AbsoluteLayout>

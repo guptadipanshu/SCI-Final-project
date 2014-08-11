@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/landing_no_btn" 
+    android:paddingTop="50dp"
+    >
+
+    <TextView
+        android:id="@+id/CITY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       	android:text="HOMETOWN"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/holo_orange_light"
+        android:textStyle="bold" 
+        android:layout_marginLeft="25dp"/>
+    <EditText
+        android:id="@+id/et_hometown"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_landing_normal_login"
+        android:ems="10"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:hint="  CHICAGO" />
+    <TextView
+        android:id="@+id/tv_dob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Birthday"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/holo_orange_light"
+        android:textStyle="bold" 
+        android:paddingTop="30dp"
+        android:layout_marginLeft="25dp"/>
+     
+    <EditText
+        android:id="@+id/et_birth"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+       	android:gravity="center_vertical"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_landing_normal_login"
+        android:ems="10"
+        
+        android:hint="   MM/DD/YYYY" >
+
+       
+    </EditText>
+    <TextView
+        android:id="@+id/tv_favsong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       	android:text="Favorite Song"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/holo_orange_light"
+        android:textStyle="bold" 
+        android:paddingTop="30dp"
+        android:layout_marginLeft="25dp"/>
+     <EditText
+        android:id="@+id/et_Fav_song"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_landing_normal_login"
+        android:ems="10"
+        android:gravity="center_vertical"
+        android:hint="  Party In USA" 
+       
+        android:padding="10dp"
+        android:layout_gravity="center"/>
+<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingTop="30dp">
+
+    <Button
+        android:id="@+id/btn_privew"
+        android:layout_width="120dp"
+        android:layout_height="33dp"
+        android:layout_below="@+id/btn_save_changes"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_save"
+        android:text="Preview" 
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btn_save_changes"
+        android:layout_width="140dp"
+        android:layout_height="33dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_save"
+        android:text="Save Changes" 
+        />
+  
+  </RelativeLayout>
+</LinearLayout>
